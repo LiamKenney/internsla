@@ -1,0 +1,14 @@
+.chart {
+    width: 40rem;
+    height: 20rem;
+}
+.rotate-90 {
+    transform: translateX(-50%) translateX(1rem) rotate(90deg);
+}
+.rotate-270 {
+    transform: translateX(50%) translateX(-1rem) rotate(270deg);
+}
+.rotate-90, .rotate-270 {
+    white-space: nowrap;
+	transform-origin: center center 0;
+}
