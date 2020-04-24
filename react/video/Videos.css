@@ -1,0 +1,16 @@
+input#fileUpload {
+  display: none;
+  visibility: hidden;
+}
+
+input#fileUpload + label {
+  cursor: pointer;
+}
+
+.player-container {
+  height: 800px;
+}
+
+.bg-shade {
+  background-color: #0001;
+}
