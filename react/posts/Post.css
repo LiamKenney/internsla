@@ -1,0 +1,45 @@
+.post .post-form-box textarea[name="content"] {
+  min-height: 8rem;
+  word-wrap: break-word;
+  resize: unset;
+}
+
+.post .post-form-box.enter {
+  opacity: 0;
+  transform: translateY(-100%);
+}
+
+.post .post-form-box.enter-active {
+  opacity: 1;
+  transform: translateY(0%);
+  transition: opacity ease-in 500ms, transform linear 500ms;
+  z-index: -1;
+}
+
+.post .post-form-box.exit {
+  opacity: 1;
+}
+
+.post .post-form-box.exit-active {
+  transform: translateY(-100%);
+  opacity: 0;
+  transition: opacity ease-out 200ms, transform linear 500ms;
+  z-index: -1;
+}
+
+.post .cust-bg-shader {
+  background-color: #0001;
+}
+
+.post .threadsImg {
+  width: 50%;
+}
+
+.post .cust-big-text {
+  font-size: 1.2rem;
+}
+
+.post .cust-square-5 {
+  width: 5rem;
+  height: 5rem;
+}
